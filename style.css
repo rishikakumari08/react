@@ -1,0 +1,9 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#heading{
+    color: rgb(237, 37, 6);
+}

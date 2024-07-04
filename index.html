@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <p>
-        Hey this is my first react code.
-    </p>
+    <!-- this h1 won't be relpaced -->
+    <h1>Hello I'm top</h1>
+    <div id="root">
+        <!-- this h1 tag will replace by the react element -->
+        <h1>Hello!</h1>
+    </div>
+
+    <h1>Hello i'm below</h1>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="./index.js">
+    </script>
 </body>
 </html>
