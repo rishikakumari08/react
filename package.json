@@ -1,0 +1,18 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is react begining by me",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "React",
+    "learning"
+  ],
+  "author": "Rishika kumari",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
